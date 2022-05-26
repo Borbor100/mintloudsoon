@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Crushed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1.6; 
+  background: rgb(34,8,109);
+  background: linear-gradient(90deg, rgba(34,8,109,0.9205883036808473) 35%, rgba(121,9,114,0.9934174353335085) 65%);
+}
+h1 {
+  font-family: Crushed, Sans-Serif;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 5rem;
+  margin-bottom: 10%;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 1.7rem;
+}
+.logo {
+  height: 150px;
+  width: 150px;
+}
+.whole {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+.content {
+  z-index: 2;
+}
+.small {
+  font-family: satisfy, sans-serif;
+  margin-bottom: 30%;
+  font-size: 1.5rem;
+}
+a:hover {
+  color: black;
+  background: none;
+}
+
+@media (max-height: 300px) {
+  .whole {
+  height: 200vh;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  h1 {
+    font-size: 6rem;
+  }
+  a {
+    font-size: 2.1rem;
+    padding: 25px;
+  }
+  .small {
+    font-size: 1.7rem;
+  }
+  .logo {
+    width: 175px;
+    height: 175px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  h1 {
+  font-size: 7rem;
+  }
+  a {
+  font-size: 2.5rem;
+  padding: 30px;
+  }
+  .small {
+  font-size: 2rem;
+  }
+  .logo {
+  width: 200px;
+  height: 200px;
+  }
+}
+@media (min-width: 1281px) {
+  h1 {
+    font-size: 8rem;
+  }
+  a {
+    font-size: 3rem;
+    padding: 35px;
+  }
+  .small {
+    font-size: 2.5rem;
+  }
+  .logo {
+    width: 250px;
+    height: 250px;
+  }
+}
