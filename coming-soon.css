@@ -76,7 +76,7 @@ a:hover {
     height: 175px;
   }
 }
-@media (min-width: 1025px) and (max-width: 1559px) {
+@media (min-width: 1025px) and (max-width: 1900px) {
   h1 {
   font-size: 7rem;
   }
@@ -92,7 +92,7 @@ a:hover {
   height: 200px;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1901px) {
   h1 {
     font-size: 8rem;
   }
